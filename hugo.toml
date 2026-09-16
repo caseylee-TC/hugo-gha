@@ -1,10 +1,9 @@
-baseURL = "https://YOUR_USERNAME.github.io/YOUR_REPO/"
+baseURL = "https://caseylee-tc.github.io/hugo-gha/"
 languageCode = "en-us"
 title = "Hugo GH Pages Scaffold"
 
 # No external theme — this scaffold ships its own minimal layouts/ folder,
 # so there is nothing to install locally and no theme submodule to manage.
-theme = ""
 
 enableRobotsTXT = true
 
