@@ -1,0 +1,7 @@
+# Hugo build output — built fresh by GitHub Actions, never committed
+public/
+resources/
+.hugo_build.lock
+
+# OS / editor cruft
+.DS_Store

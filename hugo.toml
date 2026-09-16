@@ -1,0 +1,35 @@
+baseURL = "https://YOUR_USERNAME.github.io/YOUR_REPO/"
+languageCode = "en-us"
+title = "Hugo GH Pages Scaffold"
+
+# No external theme — this scaffold ships its own minimal layouts/ folder,
+# so there is nothing to install locally and no theme submodule to manage.
+theme = ""
+
+enableRobotsTXT = true
+
+[params]
+  description = "A minimal Hugo site with sample pages and a live API reference, deployed via GitHub Actions."
+
+[markup.goldmark.renderer]
+  unsafe = true   # allows raw HTML in Markdown (used by the API reference page)
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
+
+[[menu.main]]
+  name = "API Reference"
+  url = "/api/"
+  weight = 4
